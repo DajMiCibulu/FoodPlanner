@@ -72,11 +72,11 @@ namespace FoodPlanner
             // Initialize the ImageList objects with bitmaps.
             imageListSmall.Images.Add(Bitmap.FromFile("C:\\MySmallImage1.bmp"));
             imageListSmall.Images.Add(Bitmap.FromFile("C:\\MySmallImage2.bmp"));
-            imageListLarge.Images.Add(Bitmap.FromFile("C:\\MyLargeImage1.bmp"));
-            imageListLarge.Images.Add(Bitmap.FromFile("C:\\MyLargeImage2.bmp"));
+//            imageListLarge.Images.Add(Bitmap.FromFile(".\\MyLargeImage1.bmp"));
+//           imageListLarge.Images.Add(Bitmap.FromFile(".\\MyLargeImage2.bmp"));
 
             //Assign the ImageList objects to the ListView.
-            myListView.LargeImageList = imageListLarge;
+ //           myListView.LargeImageList = imageListLarge;
             myListView.SmallImageList = imageListSmall;
             //myListView.View = View.LargeIcon;
 
